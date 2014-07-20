@@ -64,7 +64,7 @@
 #container
 {
     width: 950px;
-    margin: auto;
+    margin:50px auto 0;
 }
 
 h3{
@@ -80,8 +80,11 @@ h3{
 {
     height: 33px;
     margin: 0;
+    width:950px;
     padding: 17px 0 0 0;
-
+    position: fixed;
+    z-index: 99999999999;
+    top:0;
     list-style: none;
 }
 #header > li

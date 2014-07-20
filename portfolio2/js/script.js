@@ -12,8 +12,8 @@
   				$("#slidernews").owlCarousel({
 					  navigation : true, // Show next and prev buttons
 					  singleItem:true,
-            transitionStyle:"goDown",
             navigationText: ["",""],
+            transitionStyle:"fade",
 					  paginationSpeed : 2000,
 					  lazyLoad:true
   			});
@@ -48,56 +48,56 @@
 
 // var div = document.getElementById("sort");
 
-var header = document.getElementById("header");
-var news = document.getElementById("newsblock");
-var bio = document.getElementById("bioblock");
-var portfolio = document.getElementById("portfolio");
-var footer = document.getElementById("footer");
-var menu = $("#header li");
-		menu[0].onclick= function(){
-			$('html,body').animate({
-          		scrollTop: header.offsetTop - 20
-        	}, 1000);
+// var header = document.getElementById("header");
+// var news = document.getElementById("newsblock");
+// var bio = document.getElementById("bioblock");
+// var portfolio = document.getElementById("portfolio");
+// var footer = document.getElementById("footer");
+// var menu = $("#header li");
+// 		menu[0].onclick= function(){
+// 			$('html,body').animate({
+//           		scrollTop: header.offsetTop - 60
+//         	}, 1000);
 
-		}
+// 		}
 
-		menu[1].onclick= function(){
-			$('html,body').animate({
-          		scrollTop: news.offsetTop - 10
-        	}, 1000);
-
-
-		}
-
-		menu[2].onclick= function(){
-			$('html,body').animate({
-          		scrollTop: bio.offsetTop - 10
-        	}, 1000);
+// 		menu[1].onclick= function(){
+// 			$('html,body').animate({
+//           		scrollTop: news.offsetTop - 60
+//         	}, 1000);
 
 
-		}
+// 		}
 
-		menu[3].onclick= function(){
-      $('html,body').animate({
-              scrollTop: portfolio.offsetTop - 10
-          }, 1000);
-}
-    menu[4].onclick= function(){
-			$('html,body').animate({
-          		scrollTop: footer.offsetTop - 10
-        	}, 1000);
+// 		menu[2].onclick= function(){
+// 			$('html,body').animate({
+//           		scrollTop: bio.offsetTop - 60
+//         	}, 1000);
 
 
-		}
+// 		}
+
+// 		menu[3].onclick= function(){
+//       $('html,body').animate({
+//               scrollTop: portfolio.offsetTop - 60
+//           }, 1000);
+// }
+//     menu[4].onclick= function(){
+// 			$('html,body').animate({
+//           		scrollTop: footer.offsetTop - 60
+//         	}, 1000);
 
 
-window.onscroll = function(){
-	var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+// 		}
+
+
+// window.onscroll = function(){
+// 	var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 	
 	// if(scrollTop<bio.offsetTop-2) div.style.marginLeft = '0px';
 	// if(scrollTop>bio.offsetTop-100&&scrollTop<model.offsetTop) div.style.marginLeft = '90px';
 	// if(scrollTop>model.offsetTop-100&&scrollTop<footer.offsetTop) div.style.marginLeft = '175px';
 	// if(scrollTop>model.offsetTop+20) div.style.marginLeft = '255px';
-}
+// }
 
 
