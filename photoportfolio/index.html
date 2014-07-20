@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Inga Kiseleva</title>
+	<link rel="stylesheet" href="css/norm.css">
+	<link rel="stylesheet" href="css/owl.transition.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div id="main">
+		<div id="header">
+			<div id="name"><span>Inga Kiseleva</span></div>
+			<div id="menu">
+				<ul>
+					<li>ГЛАВНАЯ <div id="sort"><span class="fa fa-sort-desc"></span></div></li>
+					<li>БИОГРАФИЯ</li>
+					<li>МОДЕЛЬ</li>
+					<li>КОНТАКТЫ</li>
+				</ul>
+			</div>
+			<div class="icons">
+				<span class="fa fa-twitter"><a href="http://" target="_blank"></a></span>
+				<span class="vk"><a href="http://vk.com/kiselevainga" target="_blank">В</a></span>
+				<span class="fa fa-facebook"><a href="http://" target="_blank"></a></span>
+				<span class="fa fa-instagram"><a href="http://" target="_blank"></a></span>
+			</div>
+		</div>
+		<div id="slider">
+
+			
+			<ul id="slidertop">
+				<li>
+					<image src="img/slidertop/1.jpg">
+				</li>
+				<li>
+					<image src="img/slidertop/2.jpg">
+				</li>
+				<li>
+					<image src="img/slidertop/3.jpg">
+				</li>
+				<li>
+					<image src="img/slidertop/4.jpg">
+				</li>
+				<li>
+					<image src="img/slidertop/5.jpg">
+				</li>
+			</ul>
+			<!-- <span id="arrow" class='fa fa-arrow-circle-right'></span> -->
+		</div>
+
+		<div id="bio">
+			<div id="biohead"><span>БИОГРАФИЯ</span></div>
+			<img src="img/bio.jpg" alt="">
+			<div id="text">
+				<span>Inga Kiseleva</span>
+				<br><br>
+				<br><br>
+				На протяжении 10 лет успешная карьера<br> модели
+				на мировых подиумах Европы, США и <br>Азии(Показы:Dolce&Gabbana, Malloni,<br>Miu-Miu,
+				Alberta Feretti etc. Журналы: Vogue Italy,<br>Vogue Russia, Marie-Clare, Elle, Votre Beaute,<br>Madame Figaro, Numero etc.<br><br>Лицо компании Liu Jo), сотрудничество с такими<br>фотографами как Deborah Turbeville, Steven<br>Kleine, Giovanni Gastel, Giles Marie Zimmerman,<br>Antonie Verglas etc. Писатель-автор колонки<br>во французком журнале 
+				ARTHOUSE<br>Начинающая актриса(Улицы разбитых фонарей,<br>Убойная сила, Дорожный Патруль, роль во<br>французском полнометражном<br>фильме L'Antiquaire релиз июнь 2014 года).
+			</div>
+		</div>
+				
+		<div id="model">
+			<div id="modelhead">
+				<span>ФОТОМОДЕЛЬ</span>
+			</div>
+		</div>
+
+		<div id="nextslider">
+			<ul id="slidernext" class="owl-carousel">
+				
+			</ul>
+		</div>
+		<div id="footer">
+			<div>
+				<div class="iconsfoot">
+					<span class="fa fa-twitter"><a href="http://" target="_blank"></a></span>
+					<span class="vk"><a href="http://vk.com/kiselevainga" target="_blank">В</a></span>
+					<span class="fa fa-facebook"><a href="http://" target="_blank"></a></span>
+					<span class="fa fa-instagram"><a href="http://" target="_blank"></a></span>
+				</div>
+				<hr>
+				<div>
+					INGA KISELEVA 2013-2014
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script>
+		var numslidersbottom = 3; // КОЛИЧЕСТВО ЕЛЕМЕНТОВ НИЖНЕГО СЛАЙДЕРА
+
+		var bottomslider = document.getElementById("slidernext");
+
+		for(i=1;i<=numslidersbottom;i++){
+			if(i===numslidersbottom) bottomslider.innerHTML += "<div class='item'><img src='img/slidernext/" + i + ".jpg' class='slidernext lastimg' alt=''></div>";
+			else
+			bottomslider.innerHTML += "<div class='item'><img src='img/slidernext/" + i + ".jpg' class='slidernext' alt=''></div>";
+		}
+
+		// for(i=1;i<=numsliderstop;i++){
+		// 	if(i===numsliderstop) topslider.innerHTML += "<div class='item'><img src='img/slidertop/" + i + ".jpg' class='slidertop lastimg' alt=''></div>";
+		// 	else
+		// 	topslider.innerHTML += "<div class='item'><img src='img/slidertop/" + i + ".jpg' class='slidertop' alt=''></div>";
+		// }
+	</script>
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/slider.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/retina.min.js"></script>
+	
+</body>
+</html>

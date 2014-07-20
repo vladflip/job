@@ -1,0 +1,2 @@
+RewriteOptions inherit
+RewriteEngine On  # enables url rewriting
