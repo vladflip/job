@@ -390,7 +390,8 @@ h3{
 }
 #iconsfoot{
     margin:auto;
-    width:153px;
+    width:250px;
+    text-align: center;
 }
 #iconsfoot span{
     margin:0 30px 0 0;
