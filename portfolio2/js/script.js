@@ -22,13 +22,16 @@
             loop:true
   			});
           $("#bottomslider").owlCarousel({
-            navigation : true, // Show next and prev buttons
-            singleItem:true,
-            transitionStyle: "fade",
-            paginationSpeed : 2000,
-            autoPlay:4000,
-            paginationSpeed : 2000,
-            lazyLoad:true
+            animateOut: 'fadeOutDown',
+            items:1,
+            margin:30,
+            stagePadding:30,
+            smartSpeed:450,
+            nav:true,
+            autoWidth:true,
+            navText:["",""],
+            loop:true,
+            margin:150
           });
   			// 	$("#slidertop").zAccordion({
   			// 		trigger:'click',

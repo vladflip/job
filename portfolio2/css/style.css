@@ -339,21 +339,21 @@ h3{
 
 #bottomslider{
     margin:0 0 0 121px;
-    height:1004px;
+    height:960px;
     width:829px;
 }
-#bottomslider .owl-wrapper-outer{
-    height:1004px;
+#bottomslider .owl-stage-outer{
+    height:960px;
 }
-#bottomslider .owl-buttons{
+#bottomslider .owl-nav{
     display: none;
 }
-#bottomslider .owl-pagination{
+#bottomslider .owl-dots{
     position:absolute;
     top:50px;
     left:-60px;
 }
-#bottomslider .owl-page{
+#bottomslider .owl-dot{
     height:10px;
     width:10px;
     padding:1px;
@@ -361,7 +361,7 @@ h3{
     border-radius: 50%;
     margin:0 0 20px 0;
 }
-#bottomslider .owl-page.active{
+#bottomslider .owl-dot.active{
     background-color: #4b3e2f;
 }
 #portfolio>div:last-child h4{
