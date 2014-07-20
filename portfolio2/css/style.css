@@ -8,7 +8,7 @@
     src: url('../fonts/fontawesome-webfont.eot?v=4.1.0');
     src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.1.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff?v=4.1.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.1.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.1.0#fontawesomeregular') format('svg');
 }
-.fa
+.fa 
 {
     font-family: FontAwesome;
     font-weight: normal;
@@ -242,9 +242,9 @@ h3{
     float:left;
     height:auto;
 }
-.item>img{
+.item img{
     float:right;
-    margin:-45px 0 0 0;
+    margin:-45px 0 -10px 0;
 }
 .item p{
     font-family: Tahoma, Corbel, sans-serif;
@@ -253,10 +253,10 @@ h3{
     margin-left:10px;
     margin-bottom: 40px;
 }
-#slidernews .owl-buttons .owl-prev{
+#slidernews .owl-nav .owl-prev{
     display:none;
 }
-#slidernews .owl-buttons .owl-next{
+#slidernews .owl-nav .owl-next{
     width:14px;
     height:14px;
     left:293px;
@@ -267,19 +267,15 @@ h3{
     -o-transition: all .2s linear;
     transition: all .2s linear;
 }
-#slidernews .owl-buttons .owl-next:hover{
+#slidernews .owl-nav .owl-next:hover{
     top:343px;
 }
-#slidernews .owl-buttons .owl-next img{
-    height:10px;
-    width:10px;
-}
-#slidernews .owl-pagination{
+#slidernews .owl-dots{
     position:absolute;
     top:400px;
     left:223px;
 }
-#slidernews .owl-page{
+#slidernews .owl-dot{
     width:10px;
     border:1px solid #fff;
     border-radius: 50%;
@@ -288,7 +284,7 @@ h3{
     float:left;
     height:10px;
 }
-#slidernews .owl-page.active{
+#slidernews .owl-dot.active{
     background-color: #fff;
 }
 /*________________________slider*/

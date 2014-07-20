@@ -10,12 +10,16 @@
 		// 	}
   // })
   				$("#slidernews").owlCarousel({
-					  navigation : true, // Show next and prev buttons
-					  singleItem:true,
-            transitionStyle:"goDown",
-            navigationText: ["",""],
-					  paginationSpeed : 2000,
-					  lazyLoad:true
+            animateIn: 'fadeInDown',
+            animateOut: 'fadeOutDown',
+            items:1,
+            margin:30,
+            stagePadding:30,
+            smartSpeed:450,
+            nav:true,
+            autoWidth:true,
+            navText:["",""],
+            loop:true
   			});
           $("#bottomslider").owlCarousel({
             navigation : true, // Show next and prev buttons
