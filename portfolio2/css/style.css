@@ -65,6 +65,14 @@
     margin: auto;
 }
 
+h3{
+    margin-left:18px;
+    margin-top:11px;
+    margin-bottom:11px;
+    font-size: 22px;
+    font-weight: 100;
+    font-family: Candara, Corbel, sans-serif;
+}
 /*__________________________HEADER*/
 #header
 {
@@ -76,8 +84,8 @@
 }
 #header > li
 {
-    font-size: 12px;
-    font-size: Cardana, Corbel, sans-serif;
+    font-size: 13px;
+    font-family: Cardana, Corbel, sans-serif;
 
     float: left;
 
@@ -178,7 +186,9 @@
 
 
 /*________________________________NEWSBLOCK*/
-
+#newsblock{
+    height:478px;
+}
 #newsblock > h1{
     margin-left:18px;
     margin-top:11px;
@@ -261,9 +271,25 @@
 
 
 /*__________________________________BIOBLOCK*/
-
-#bioblock>h3{
-    color:#fff;
+#bioblock{
+    height:626px;
 }
-
+#bioblock div{
+    float:left;
+}
+#textslider{
+    word-spacing: 1px;
+    text-indent: 12px;
+    padding:0 20px;
+    width:320px;
+    font-family: Tahoma, Corbel, sans-serif;
+    font-size: 14px;
+}
+#textslider>h2{
+    font-family: Cambria,serif;
+    font-size: 24px;
+    margin-bottom:30px;
+    font-weight: normal;
+    text-align: center; 
+}
 /*__________________________________BIOBLOCK*/
