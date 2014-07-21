@@ -32,7 +32,7 @@
             smartSpeed:450,
             nav:true,
             autoWidth:true,
-            //autoplay:true,
+            autoplay:true,
             navText:["",""],
             loop:true,
             margin:150
