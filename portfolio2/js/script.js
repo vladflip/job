@@ -59,6 +59,35 @@
               $(this).attr("src","img/chevron.png");
             }
           })
+
+          $("#chevronblack").click(function(){
+            var margin = $("#textsliderdiv").css("margin-top").slice(0,-2);
+            if($(this).hasClass("up")){
+              if($(this).hasClass("upnext")){
+
+                  $("#textsliderdiv").css("margin-top",+margin-180 + 'px');
+                  $(this).removeClass("upnext");
+                  $(this).removeClass("up");
+                  $(this).addClass("down");
+              $(this).attr("src","img/chevronblackup.png");
+                    }else{
+                  $("#textsliderdiv").css("margin-top",+margin-440 + 'px');
+                  $(this).addClass("upnext");
+                  }
+            }else{
+            if($(this).hasClass("downnext")){
+
+                  $("#textsliderdiv").css("margin-top",+margin+440 + 'px');
+                  $(this).removeClass("downnext");
+                  $(this).removeClass("down");
+                  $(this).addClass("up");
+              $(this).attr("src","img/chevronblack.png");
+                    }else{
+                  $("#textsliderdiv").css("margin-top",+margin+180 + 'px');
+                  $(this).addClass("downnext");
+                }
+            }
+          })
   			// 	$("#slidertop").zAccordion({
   			// 		trigger:'click',
   			// 		easing: 'linear',

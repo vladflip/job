@@ -328,6 +328,7 @@ h3{
 /*__________________________________BIOBLOCK*/
 #bioblock{
     height:626px;
+    position:relative;
 }
 #bioblock div{
     float:left;
@@ -337,17 +338,29 @@ h3{
     text-indent: 12px;
     padding:0 20px;
     width:320px;
-    height:589px;
+    height:539px;
     font-family: Tahoma, Corbel, sans-serif;
     font-size: 14px;
     overflow: hidden;
 }
-#textslider>h2{
+#textslider h2{
     font-family: Cambria,serif;
     font-size: 24px;
     margin-bottom:30px;
     font-weight: normal;
     text-align: center; 
+    overflow: hidden;
+}
+
+#textsliderdiv{
+    height:400px;
+}
+#chevronblack{
+    width:20px;
+    position:absolute;
+    left:760px;
+    cursor:pointer;
+    top:600px;
 }
 /*__________________________________BIOBLOCK*/
 
