@@ -194,6 +194,10 @@ h3{
 
     color: #fff;
 }
+#mainblock p{
+    padding:15px;
+    text-align: center;
+}
 /*_____________________________/MAINBLOCK*/
 
 
@@ -281,22 +285,12 @@ h3{
 }
 
 #slidernews .owl-nav .owl-next{
-    width:14px;
-    height:14px;
-    left:453px;
-    top:385px;
-    position: absolute;
-    background: url(../img/chevron.png) no-repeat;
-    -webkit-transition: all .2s linear;
-    -o-transition: all .2s linear;
-    transition: all .2s linear;
-}
-#slidernews .owl-nav .owl-next:hover{
-    top:388px;
+    
+    display: none;
 }
 #slidernews .owl-dots{
     position:absolute;
-    top:412px;
+    top:402px;
     left:400px;
 }
 #slidernews .owl-dot{
