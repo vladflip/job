@@ -1,3 +1,5 @@
+  
+
   // $(document).ready(function(){
 		// 	document.getElementsByClassName("lastimg")[0].onload = function(){
 		// 		var arr = $(".slidernext");
@@ -9,22 +11,23 @@
   // 				}
 		// 	}
   // })
-  				$("#slidernews").owlCarousel({
-            animateIn: 'fadeInDown',
+  				$(document).ready(function(){
+            $("#slidernews").owlCarousel({
+            animateIn: 'fadeIn',
             animateOut: 'fadeOutDown',
             items:1,
-            margin:30,
+            margin:0,
             stagePadding:30,
             smartSpeed:450,
             nav:true,
             autoWidth:true,
             navText:["",""],
             loop:true
-  			});
+        });
           $("#bottomslider").owlCarousel({
             animateOut: 'fadeOutDown',
             items:1,
-            margin:30,
+            margin:60,
             stagePadding:30,
             smartSpeed:450,
             nav:true,
@@ -34,6 +37,28 @@
             loop:true,
             margin:150
           });
+          // var newsimg = $(".slidernewsimg");
+          // var imglen = newsimg.length;
+          // for(var i =0; i<imglen; i++){
+          //   var h = Math.ceil(345/newsimg[i].width)*newsimg[i].height;
+          //   alert(h);
+          // }
+          })
+
+          $("#chevronup").click(function(){
+            var margin = $(this).parent().css("margin-top").slice(0,-2);
+            if($(this).hasClass("up")){
+            $(this).parent().css("margin-top",+margin-220 + 'px');
+              $(this).removeClass("up");
+              $(this).addClass("down");
+              $(this).attr("src","img/chevrondown.png");
+            }else{
+            $(this).parent().css("margin-top",+margin+220 + 'px');
+            $(this).removeClass("down");
+              $(this).addClass("up");
+              $(this).attr("src","img/chevron.png");
+            }
+          })
   			// 	$("#slidertop").zAccordion({
   			// 		trigger:'click',
   			// 		easing: 'linear',
