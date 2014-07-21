@@ -27,12 +27,12 @@
           $("#bottomslider").owlCarousel({
             animateOut: 'fadeOutDown',
             items:1,
-            margin:60,
+            margin:200,
             stagePadding:30,
             smartSpeed:450,
             nav:true,
             autoWidth:true,
-            autoplay:true,
+            //autoplay:true,
             navText:["",""],
             loop:true,
             margin:150

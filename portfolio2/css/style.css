@@ -402,6 +402,15 @@ h3{
 #bottomslider .owl-dot.active{
     background-color: #4b3e2f;
 }
+#bottomslider img{
+    max-width:829px;
+}
+#bottomslider .owl-item{
+    width:790px !important;
+}
+#bottomslider .owl-item{
+    display: block;
+}
 #portfolio>div:last-child h4{
     font-size:14px;
     text-align: right;
