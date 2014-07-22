@@ -176,7 +176,6 @@ window.onscroll = function(){
   if(scrollTop>portfolio.offsetTop+350) {clearitem(); menu[4].className = 'menuitem';}
 }
 fscroll.onscroll = function(){
-  
 }
 
 

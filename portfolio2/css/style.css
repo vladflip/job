@@ -473,11 +473,11 @@ h3{
     width: 10px;
 }
 ::-webkit-scrollbar-button {
-    background: #ccc;
+    display: none;
 }
 ::-webkit-scrollbar-track-piece {
-    background: #ccc;
+    background: #fff;
 }
 ::-webkit-scrollbar-thumb {
-    background: #eee;
+    background: #ddd;
 }​
