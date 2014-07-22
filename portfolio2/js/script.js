@@ -59,32 +59,40 @@
               $(this).attr("src","img/chevron.png");
             }
           })
-
+var fscroll = $("#textslider");
           $("#chevronblack").click(function(){
             var margin = $("#textsliderdiv").css("margin-top").slice(0,-2);
             if($(this).hasClass("up")){
               if($(this).hasClass("upnext")){
 
-                  $("#textsliderdiv").css("margin-top",+margin-180 + 'px');
+                  fscroll.animate({
+                      scrollTop: 680
+                   }, 1000);
                   $(this).removeClass("upnext");
                   $(this).removeClass("up");
                   $(this).addClass("down");
               $(this).attr("src","img/chevronblackup.png");
                     }else{
-                  $("#textsliderdiv").css("margin-top",+margin-440 + 'px');
+                  fscroll.animate({
+                      scrollTop: 450
+                   }, 1000);
                   $(this).addClass("upnext");
                   }
             }else{
             if($(this).hasClass("downnext")){
 
-                  $("#textsliderdiv").css("margin-top",+margin+440 + 'px');
+                  fscroll.animate({
+                      scrollTop: 0
+                   }, 1000);
                   $(this).removeClass("downnext");
                   $(this).removeClass("down");
                   $(this).addClass("up");
               $(this).attr("src","img/chevronblack.png");
                     }else{
-                  $("#textsliderdiv").css("margin-top",+margin+180 + 'px');
-                  $(this).addClass("downnext");
+                  fscroll.animate({
+                      scrollTop: 450
+                   }, 1000);
+                   $(this).addClass("downnext");
                 }
             }
           })
@@ -166,6 +174,9 @@ window.onscroll = function(){
 	if(scrollTop>bio.offsetTop-70&&scrollTop<portfolio.offsetTop) {clearitem(); menu[2].className = 'menuitem';}
 	if(scrollTop>portfolio.offsetTop-70) {clearitem(); menu[3].className = 'menuitem';}
   if(scrollTop>portfolio.offsetTop+350) {clearitem(); menu[4].className = 'menuitem';}
+}
+fscroll.onscroll = function(){
+  
 }
 
 

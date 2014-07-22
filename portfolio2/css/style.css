@@ -335,7 +335,7 @@ h3{
     height:539px;
     font-family: Tahoma, Corbel, sans-serif;
     font-size: 14px;
-    overflow: hidden;
+    overflow-y: scroll;
 }
 #textslider h2{
     font-family: Cambria,serif;
@@ -354,8 +354,10 @@ h3{
          -o-transition: margin .4s ease-in;
             transition: margin .4s ease-in;
 }
+
 #chevronblack{
     width:20px;
+    height:20px;
     position:absolute;
     left:760px;
     cursor:pointer;
@@ -466,3 +468,16 @@ h3{
 .menuitem span{
     color:#000;
 }
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-button {
+    background: #ccc;
+}
+::-webkit-scrollbar-track-piece {
+    background: #888;
+}
+::-webkit-scrollbar-thumb {
+    background: #eee;
+}​
