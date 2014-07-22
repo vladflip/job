@@ -476,7 +476,7 @@ h3{
     background: #ccc;
 }
 ::-webkit-scrollbar-track-piece {
-    background: #888;
+    background: #ccc;
 }
 ::-webkit-scrollbar-thumb {
     background: #eee;

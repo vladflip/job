@@ -83,7 +83,7 @@ var fscroll = $("#textslider");
 
                   fscroll.animate({
                       scrollTop: 0
-                   }, 1000);
+                   }, 500);
                   $(this).removeClass("downnext");
                   $(this).removeClass("down");
                   $(this).addClass("up");
@@ -91,7 +91,7 @@ var fscroll = $("#textslider");
                     }else{
                   fscroll.animate({
                       scrollTop: 450
-                   }, 1000);
+                   }, 500);
                    $(this).addClass("downnext");
                 }
             }
