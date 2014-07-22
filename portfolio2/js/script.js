@@ -48,12 +48,12 @@
           $("#chevronup").click(function(){
             var margin = $(this).parent().css("margin-top").slice(0,-2);
             if($(this).hasClass("up")){
-            $(this).parent().css("margin-top",+margin-220 + 'px');
+            $(this).parent().css("margin-top",-227 + 'px');
               $(this).removeClass("up");
               $(this).addClass("down");
               $(this).attr("src","img/chevrondown.png");
             }else{
-            $(this).parent().css("margin-top",+margin+220 + 'px');
+            $(this).parent().css("margin-top",0 + 'px');
             $(this).removeClass("down");
               $(this).addClass("up");
               $(this).attr("src","img/chevron.png");
