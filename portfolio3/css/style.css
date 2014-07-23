@@ -197,7 +197,32 @@ overflow: hidden;
 	margin:32px 0 0 0;
 }
 #video iframe{
-	margin:21px 0 0 150px;
-	width:698px;
+	margin:21px 0 0 147px;
+	width:705px;
+	height:346px;
 }
+#video p{
+	width:690px;
+	margin:12px auto;
+	font-size: 12px;
+	text-align: center;
+}
+
+/*_____________________________________slider*/
+
+#actressslider{
+	width:620px;
+	margin:47px auto 0;
+}
+#framepar{
+	overflow: hidden;
+	height:115px;
+}
+#actressslider iframe{
+	width:190px;
+	margin:-30px 0 0 0;
+	height:200px;
+}
+
+/*_____________________________________slider*/
 /*________________________________ACTRESS*/
