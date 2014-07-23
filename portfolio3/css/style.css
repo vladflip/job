@@ -106,6 +106,7 @@
 	top:-13px;
 	font-family: Candara, sans-serif;
 	left:15px;
+	font-size: 18px
 }
 /* _____________________________________________slider */
 #modelslider{
@@ -134,13 +135,67 @@ overflow: hidden;
 	width:1000px;
 }
 #modelslider .owl-stage-outer{
-	margin:100px 0 0 0;
+	margin:60px 0 0 0;
+	height:auto;
 }
 #modelslider .item img{
 	display: block;
 	margin:auto;
 }
+
+#modelslider .owl-dots{
+    position:absolute;
+    top:20px;
+    left:445px;
+}
+#modelslider .owl-dot{
+    width:10px;
+    border:1px solid #fff;
+    border-radius: 50%;
+    margin:0 0 0 7px;
+    padding:1px;
+    float:left;
+    height:10px;
+}
+#modelslider .owl-dot.active{
+    background-color: #fff;
+}
 /* _____________________________________________slider */
 
 
 /*______________________________MODEL*/
+
+/*________________________________ACTRESS*/
+#actress{
+	width:1000px;
+}
+#actresshead{
+	text-align: center;
+	padding:28px 0 0 0;
+}
+#actresshead span{
+	position:relative;
+	top:-13px;
+	font-family: Candara, sans-serif;
+	font-size: 18px;
+	left:12px;
+}
+#actresshead p{
+	text-align: center;
+	font-size: 18px;
+	font-family: Candara, sans-serif;
+	color:#5B5B5A;
+}
+#video h1{
+	color:#5B5B5A;
+	font-family: Candara, sans-serif;
+	font-weight: 300;
+	text-align: center;
+	font-size: 22px;
+	margin:32px 0 0 0;
+}
+#video iframe{
+	margin:30px 0 0 152px;
+	width:695;
+}
+/*________________________________ACTRESS*/

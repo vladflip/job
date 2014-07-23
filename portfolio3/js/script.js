@@ -5,10 +5,8 @@ $(document).ready(function(){
             margin:400,
             stagePadding:30,
             smartSpeed:450,
-            nav:true,
+            autoplay:true,
             autoWidth:true,
-            //autoplay:true,
-            navText:["next","prev"],
             loop:true,
             margin:150
         });
