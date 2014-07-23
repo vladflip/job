@@ -73,11 +73,13 @@
 /*__________________________HEADER*/
 
 /*____________________________HOME*/
-
+#home{
+	position:relative;
+}
 #hometext{
 	position:absolute;
-	top:125px;
-	left:743px;
+	top:126px;
+	left:608px;
 }
 #hometext h1{
 	font-size: 70px;
@@ -196,6 +198,6 @@ overflow: hidden;
 }
 #video iframe{
 	margin:30px 0 0 152px;
-	width:695;
+	width:695px;
 }
 /*________________________________ACTRESS*/

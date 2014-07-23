@@ -16,7 +16,6 @@
             animateIn: 'fadeIn',
             animateOut: 'fadeOutDown',
             items:1,
-            margin:0,
             stagePadding:30,
             smartSpeed:450,
             nav:true,
@@ -48,7 +47,7 @@
           $("#chevronup").click(function(){
             var margin = $(this).parent().css("margin-top").slice(0,-2);
             if($(this).hasClass("up")){
-            $(this).parent().css("margin-top",-227 + 'px');
+            $(this).parent().css("margin-top",-257 + 'px');
               $(this).removeClass("up");
               $(this).addClass("down");
               $(this).attr("src","img/chevrondown.png");

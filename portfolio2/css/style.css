@@ -242,7 +242,7 @@ h3{
     text-align: center;
 }
 #slidernews .item>div{
-    width:605px;
+    width:575px;
     float:left;
     height:auto;
     overflow: hidden;
@@ -263,12 +263,12 @@ h3{
     margin:75px 0 0 0;
 }
 #video{
-    margin:120px 0 0 0;
+    margin:90px 0 0 0;
 }
 #slidernews .item p{
     font-family: Tahoma, Corbel, sans-serif;
     font-size:14px;
-    margin-left:10px;
+    margin-left:0px;
     margin-bottom: 20px;
     padding:0 30px;
     text-align: justify;
@@ -279,7 +279,7 @@ h3{
 
 #chevronup{
     position: absolute;
-    top:350px;
+    top:345px;
     left:280px;
     width:20px;
     cursor:pointer;
