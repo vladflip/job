@@ -263,7 +263,9 @@ h3{
     margin:75px 0 0 0;
 }
 #video{
-    margin:90px 0 0 0;
+    margin:80px 0 0 0;
+    width:345px;
+    height:250px;
 }
 #slidernews .item p{
     font-family: Tahoma, Corbel, sans-serif;
