@@ -17,9 +17,10 @@ $(document).ready(function(){
 			stagePadding:30,
 			smartSpeed:450,
 			nav:true,
+			dots:false,
 			autoWidth:true,
 			autoplay:true,
-			navText:["next","prev"],
+			navText:["<span class='fa fa-angle-left'></span>","<span class='fa fa-angle-right'></span>"],
 			loop:true
 		});
 });
