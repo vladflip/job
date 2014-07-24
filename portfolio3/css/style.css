@@ -316,3 +316,70 @@ overflow: hidden;
 }
 /*_____________________________________slider*/
 /*________________________________ACTRESS*/
+
+/*___________________________________AUTHOR*/
+
+#authorhead{
+	text-align: center
+}
+
+/*___________________________________AUTHOR*/
+
+/*_____________________________________FOOTER*/
+
+#footer{
+	width:1000px;
+}
+#footer>div:first-child{
+	height:18px;
+	background-color: #555;
+}
+#footer>div:last-child{
+	height:153px;
+	overflow: hidden;
+	background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #6C6D6F),
+	color-stop(1, #231F20)
+	);
+background-image: -o-linear-gradient(bottom, #6C6D6F 0%, #231F20 100%);
+background-image: -moz-linear-gradient(bottom, #6C6D6F 0%, #231F20 100%);
+background-image: -webkit-linear-gradient(bottom, #6C6D6F 0%, #231F20 100%);
+background-image: -ms-linear-gradient(bottom, #6C6D6F 0%, #231F20 100%);
+background-image: linear-gradient(to bottom, #6C6D6F 0%, #231F20 100%);
+}
+#innerfoot{
+	width:400px;
+	margin:30px auto 0;
+	text-align: center;
+}
+#icons{
+	margin:0 0 20px 0;
+	color:#fcfcfc;
+	text-align: center;
+}
+#icons>span{
+	margin:0 0 0 18px;
+	cursor:pointer;
+}
+#icons>span:first-child{
+	margin:0 0px 0 0;
+}
+#icons a{
+	text-decoration: none;
+	color:#fcfcfc;
+}
+#innerfoot hr{
+	width:180px;
+	border:1px solid #777;
+}
+#innerfoot h3{
+	margin:14px 0 0 0;
+	font-size: 16px;
+	font-weight: 100;
+	font-family: Candara, sans-serif;
+	color:#fcfcfc;
+}
+/*_____________________________________FOOTER*/
